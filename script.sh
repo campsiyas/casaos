@@ -11,5 +11,6 @@ sudo systemctl start ssh
 ##Instalar Dependencias
 sudo apt install cifs-utils
 sudo apt install mergerfs
+sudo apt-get install docker-ce
 ##Instalar casa os
 wget -qO- https://get.casaos.io | sudo bash
