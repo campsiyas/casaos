@@ -2,12 +2,12 @@
 ##update repos
 sudo apt update
 ##instalar open ssh
-sudo apt install openssh-server
+#sudo apt install openssh-server
 ##Reiniciar equipo
 #reboot
 ##usar estos comandos si ssh no funciona
-sudo systemctl enable ssh
-sudo systemctl start ssh
+#sudo systemctl enable ssh
+#sudo systemctl start ssh
 ##Instalar Dependencias
 sudo apt install cifs-utils
 sudo apt install mergerfs
