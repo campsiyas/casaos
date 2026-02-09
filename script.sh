@@ -12,5 +12,6 @@ sudo systemctl start ssh
 sudo apt install cifs-utils
 sudo apt install mergerfs
 sudo apt-get install docker-ce
+sudo apt install rclone
 ##Instalar casa os
 wget -qO- https://get.casaos.io | sudo bash
