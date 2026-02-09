@@ -4,5 +4,5 @@
 #echo "HandleLidSwitch=ignore" >> /etc/systemd/logind.conf
 #sudo systemctl restart systemd-logind.service
 ##Ubuntu server 
-sudo echo "HandleLidSwitch=ignore" >> nano /etc/systemd/logind.conf
-sudo echo "HandleLidSwitchDocked=ignore" >> nano /etc/systemd/logind.conf
+sudo echo "HandleLidSwitch=ignore" >> /etc/systemd/logind.conf
+sudo echo "HandleLidSwitchDocked=ignore" >> /etc/systemd/logind.conf
