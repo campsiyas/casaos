@@ -16,5 +16,5 @@ sudo apt install rclone
 ##Instalar casa os
 wget -qO- https://get.casaos.io | sudo bash
 #Extiende espacio libre disco duro
-sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
-sudo resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv
+#sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
+#sudo resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv
